@@ -8,4 +8,8 @@ spring:
     port: 5672
     username: root
     password: 123456
+<<<<<<< HEAD
 testpropeter: demo7
+=======
+testpropeter: demo7
+>>>>>>> 64a461208678f5f8ec520691b9e7b3dfe7cb8067
