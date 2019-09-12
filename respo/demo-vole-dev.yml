@@ -33,7 +33,7 @@ ignore:
 security:
   passport:
     defaultRedirectUrl: http://localhost:7007/passport/login
-properties: demo test 7
+properties: demo test 9
 
 
 
