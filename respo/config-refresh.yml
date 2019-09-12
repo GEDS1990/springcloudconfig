@@ -8,4 +8,4 @@ spring:
     port: 5672
     username: root
     password: 123456
-testpropeter: demo8
+testpropeter: demo9
