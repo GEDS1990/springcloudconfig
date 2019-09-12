@@ -1,2 +1,12 @@
 server:
   port: 6004
+spring:
+  # Rabbitmq配置
+  rabbitmq:
+    cache:
+      channel:
+        checkout-timeout: 1s
+    host: localhost
+    port: 5672
+    username: root
+    password: 123456
