@@ -35,3 +35,13 @@ spring:
       suffix: .html
   thymeleaf:
     cache: false
+  #  文件大小 MB必须大写
+  #  maxFileSize 是单个文件大小
+  #  maxRequestSize是设置总上传的数据大小
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+      max-request-size: 20MB
+file:
+  filepath: /Users/geds/Documents/shzhyun/牧羊犬Code_淘宝店/mall/vole/vole-demo/demo.splider.handle/src/main/resources/temp
