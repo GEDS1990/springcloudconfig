@@ -29,3 +29,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+  thymeleaf:
+    cache: false
